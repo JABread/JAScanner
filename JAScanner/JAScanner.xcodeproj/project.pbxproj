@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		61288F192020766200668127 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61288F182020766200668127 /* AppDelegate.swift */; };
+		61288F1B2020766200668127 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61288F1A2020766200668127 /* ViewController.swift */; };
+		61288F1E2020766200668127 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61288F1C2020766200668127 /* Main.storyboard */; };
+		61288F212020766200668127 /* JAScanner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 61288F1F2020766200668127 /* JAScanner.xcdatamodeld */; };
+		61288F232020766200668127 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61288F222020766200668127 /* Assets.xcassets */; };
+		61288F262020766200668127 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61288F242020766200668127 /* LaunchScreen.storyboard */; };
+		61288F2E2020767A00668127 /* Scanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61288F2D2020767A00668127 /* Scanner.swift */; };
+		61288F302020768400668127 /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61288F2F2020768400668127 /* ScannerViewController.swift */; };
+		C5FFCE74CA8244211A40127E /* Pods_JAScanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F4A3C95CABF87F60369EA49 /* Pods_JAScanner.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F4A3C95CABF87F60369EA49 /* Pods_JAScanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JAScanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4226A018A3A307FE5323F010 /* Pods-JAScanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JAScanner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JAScanner/Pods-JAScanner.debug.xcconfig"; sourceTree = "<group>"; };
+		61288F152020766200668127 /* JAScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JAScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		61288F182020766200668127 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		61288F1A2020766200668127 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		61288F1D2020766200668127 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		61288F202020766200668127 /* JAScanner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JAScanner.xcdatamodel; sourceTree = "<group>"; };
+		61288F222020766200668127 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		61288F252020766200668127 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		61288F272020766200668127 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61288F2D2020767A00668127 /* Scanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scanner.swift; sourceTree = "<group>"; };
+		61288F2F2020768400668127 /* ScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
+		935D162583A5C07A2DF1A054 /* Pods-JAScanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JAScanner.release.xcconfig"; path = "Pods/Target Support Files/Pods-JAScanner/Pods-JAScanner.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61288F122020766200668127 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5FFCE74CA8244211A40127E /* Pods_JAScanner.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1428C53F714479C1DD319B47 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4226A018A3A307FE5323F010 /* Pods-JAScanner.debug.xcconfig */,
+				935D162583A5C07A2DF1A054 /* Pods-JAScanner.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		61288F0C2020766200668127 = {
+			isa = PBXGroup;
+			children = (
+				61288F172020766200668127 /* JAScanner */,
+				61288F162020766200668127 /* Products */,
+				1428C53F714479C1DD319B47 /* Pods */,
+				B5F98990683FFF18C448D82A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		61288F162020766200668127 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61288F152020766200668127 /* JAScanner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61288F172020766200668127 /* JAScanner */ = {
+			isa = PBXGroup;
+			children = (
+				61288F182020766200668127 /* AppDelegate.swift */,
+				61288F1A2020766200668127 /* ViewController.swift */,
+				61288F1C2020766200668127 /* Main.storyboard */,
+				61288F222020766200668127 /* Assets.xcassets */,
+				61288F242020766200668127 /* LaunchScreen.storyboard */,
+				61288F272020766200668127 /* Info.plist */,
+				61288F1F2020766200668127 /* JAScanner.xcdatamodeld */,
+				61288F2D2020767A00668127 /* Scanner.swift */,
+				61288F2F2020768400668127 /* ScannerViewController.swift */,
+			);
+			path = JAScanner;
+			sourceTree = "<group>";
+		};
+		B5F98990683FFF18C448D82A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F4A3C95CABF87F60369EA49 /* Pods_JAScanner.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61288F142020766200668127 /* JAScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61288F2A2020766200668127 /* Build configuration list for PBXNativeTarget "JAScanner" */;
+			buildPhases = (
+				0CC76DD6B81BBE93619A6590 /* [CP] Check Pods Manifest.lock */,
+				61288F112020766200668127 /* Sources */,
+				61288F122020766200668127 /* Frameworks */,
+				61288F132020766200668127 /* Resources */,
+				82390F5D1E183A9534EC035E /* [CP] Embed Pods Frameworks */,
+				3DF7E5A022BF76C0F11A1AC8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JAScanner;
+			productName = JAScanner;
+			productReference = 61288F152020766200668127 /* JAScanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61288F0D2020766200668127 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = John.Zhang;
+				TargetAttributes = {
+					61288F142020766200668127 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 61288F102020766200668127 /* Build configuration list for PBXProject "JAScanner" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 61288F0C2020766200668127;
+			productRefGroup = 61288F162020766200668127 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61288F142020766200668127 /* JAScanner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61288F132020766200668127 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61288F262020766200668127 /* LaunchScreen.storyboard in Resources */,
+				61288F232020766200668127 /* Assets.xcassets in Resources */,
+				61288F1E2020766200668127 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CC76DD6B81BBE93619A6590 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JAScanner-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DF7E5A022BF76C0F11A1AC8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JAScanner/Pods-JAScanner-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82390F5D1E183A9534EC035E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-JAScanner/Pods-JAScanner-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JAScanner/Pods-JAScanner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61288F112020766200668127 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61288F1B2020766200668127 /* ViewController.swift in Sources */,
+				61288F192020766200668127 /* AppDelegate.swift in Sources */,
+				61288F2E2020767A00668127 /* Scanner.swift in Sources */,
+				61288F302020768400668127 /* ScannerViewController.swift in Sources */,
+				61288F212020766200668127 /* JAScanner.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		61288F1C2020766200668127 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61288F1D2020766200668127 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		61288F242020766200668127 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61288F252020766200668127 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		61288F282020766200668127 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		61288F292020766200668127 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61288F2B2020766200668127 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4226A018A3A307FE5323F010 /* Pods-JAScanner.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ESU8X6JJKG;
+				INFOPLIST_FILE = JAScanner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = John.Zhang.JAScanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		61288F2C2020766200668127 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 935D162583A5C07A2DF1A054 /* Pods-JAScanner.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ESU8X6JJKG;
+				INFOPLIST_FILE = JAScanner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = John.Zhang.JAScanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61288F102020766200668127 /* Build configuration list for PBXProject "JAScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61288F282020766200668127 /* Debug */,
+				61288F292020766200668127 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61288F2A2020766200668127 /* Build configuration list for PBXNativeTarget "JAScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61288F2B2020766200668127 /* Debug */,
+				61288F2C2020766200668127 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		61288F1F2020766200668127 /* JAScanner.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				61288F202020766200668127 /* JAScanner.xcdatamodel */,
+			);
+			currentVersion = 61288F202020766200668127 /* JAScanner.xcdatamodel */;
+			path = JAScanner.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 61288F0D2020766200668127 /* Project object */;
+}

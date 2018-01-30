@@ -1,0 +1,6 @@
+framework module Pods_JAScanner {
+  umbrella header "Pods-JAScanner-umbrella.h"
+
+  export *
+  module * { export * }
+}
