@@ -32,6 +32,8 @@
  }
  */
 
+/* ====================== */
+
 /*
  * v0.2.0
  * Usage
@@ -231,6 +233,7 @@ extension Scanable{
     /// 验证
     func valid(predicate: (Scanable) -> Bool) -> Scanable? {
         if predicate(self) == false {
+            // TODO: set the view about tips
             SVProgressHUD.showError(withStatus: "Invalid code")
             return nil
         }
